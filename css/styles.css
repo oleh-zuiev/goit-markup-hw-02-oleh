@@ -13,12 +13,32 @@ a:hover {
 a:focus {
   color: var(--actcolor);
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flexbox {
+  display: flex;
+}
+.header-bg .flexbox {
+  align-items: center;
+  justify-content: flex-end;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
 .webstudio {
   font-family: var(--scndfont);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   color: #212121;
+  margin-right: 93px;
 }
 .web-blue {
   color: var(--actcolor);
@@ -30,6 +50,10 @@ a:focus {
   font-size: 14px;
   line-height: 16px;
   color: #212121;
+  display: inline-flex;
+}
+.header-ul-style-mr {
+  margin-right: 50px;
 }
 .header-contacts {
   font-family: var(--mainfont);
@@ -38,10 +62,13 @@ a:focus {
   font-size: 14px;
   line-height: 16px;
   color: #757575;
+  display: inline-flex;
+}
+.header-contacts-mr {
+  margin-right: 50px;
 }
 .main-up {
   background: #2f303a;
-  margin: 0px 0px 94px 0px;
 }
 .h1-class {
   font-family: var(--mainfont);
@@ -101,8 +128,6 @@ a:focus {
 .chem-ul {
   padding: auto;
   margin: auto;
-}
-.team {
 }
 .team-h2 {
   font-family: var(--mainfont);
