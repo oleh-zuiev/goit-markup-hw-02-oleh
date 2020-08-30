@@ -86,10 +86,15 @@ a:focus {
 }
 .top-button {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   background: #2196f3;
+  line-height: 30px;
+  width: 136px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: var(--mainfont);
@@ -98,10 +103,17 @@ a:focus {
   color: #ffffff;
 }
 .h2-class {
-  display: none;
+  opacity: 0;
+}
+.four-peq-flex {
+  display: flex;
+}
+.four-peq-mright :not(:last-child) {
+  margin-right: 30px;
 }
 .four-peq {
-  margin: 0px 0px 94px 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .four-peq-h3 {
   font-family: var(--mainfont);
@@ -112,6 +124,7 @@ a:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 .four-peq-text {
   font-family: var(--mainfont);
@@ -131,10 +144,16 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
+}
+.chem-padding {
+  padding-bottom: 188px;
 }
 .chem-ul {
-  padding: auto;
-  margin: auto;
+  display: flex;
+}
+.chem-li {
+  margin-right: 30px;
 }
 .team-h2 {
   font-family: var(--mainfont);
@@ -145,6 +164,19 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
+}
+.team-flex {
+  display: flex;
+}
+.team-li-mr {
+  margin-right: 30px;
+}
+.team-li-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .team-h3 {
   font-family: var(--mainfont);
@@ -155,6 +187,7 @@ a:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-top: 30px;
 }
 .team-text {
   font-family: var(--mainfont);
@@ -162,11 +195,19 @@ a:focus {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.our-team-padding {
+  padding-bottom: 94px;
 }
 footer {
   background: #2f303a;
+}
+.footer-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .webstudio-footer {
   font-family: var(--scndfont);
@@ -176,6 +217,7 @@ footer {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: rgb(255, 255, 255);
+  margin-bottom: 20px;
 }
 .footer-text {
   font-family: var(--mainfont);
